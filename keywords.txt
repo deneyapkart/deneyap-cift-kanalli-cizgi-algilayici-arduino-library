@@ -1,0 +1,31 @@
+##########################################################
+# Syntax Coloring Map For	Deneyap_CiftKanalliCizgiAlgilama
+##########################################################
+
+##########################################################
+# Library (KEYWORD1)
+##########################################################
+
+Deneyap_CiftKanalliCizgiAlgilama	KEYWORD1
+
+##########################################################
+# Class (KEYWORD1)
+##########################################################
+
+LineFollower	KEYWORD1
+
+###########################################################
+# Methods and Functions (KEYWORD2)
+###########################################################
+begin	KEYWORD2
+isConnected	KEYWORD2
+getFwVersion	KEYWORD2
+setI2Caddress	KEYWORD2
+ReadLineFollowerDigital1	KEYWORD2
+ReadLineFollowerDigital2	KEYWORD2
+ReadLineFollowerAnalog1	KEYWORD2
+ReadLineFollowerAnalog2	KEYWORD2
+
+############################################################
+# Constants (LITERAL1)
+############################################################
