@@ -4,8 +4,8 @@
 @mainpage     Deneyap Dual Channel Line Follower TCRT5000 Arduino library 
               source file
 @maintainer   RFtek Electronics <techsupport@rftek.com.tr>
-@version      v1.0.0
-@date         June 23, 2022
+@version      v1.0.1
+@date         November 07, 2022
 @brief        Includes functions to control Deneyap Dual Channel Line 
               Follower TCRT5000 Arduino library
 
@@ -178,7 +178,7 @@ uint16_t LineFollower::I2C_ReadFirmwareData16bit(LineFollower_DataPacket_TypeDef
     if (_i2cPort->requestFrom(_address, static_cast<uint8_t>(2)) != 0) {
         i2cData2 = _i2cPort->read();
         i2cData1 = _i2cPort->read();
-        Serial.print("v"); Serial.print(i2cData1); Serial.print("."); Serial.print(i2cData2);
+        Serial.print("v"); Serial.print(i2cData1); Serial.print("."); Serial.println(i2cData2);
     }
     return 0;
 }
