@@ -13,6 +13,8 @@ Deneyap_CiftKanalliCizgiAlgilama	KEYWORD1
 ##########################################################
 
 LineFollower	KEYWORD1
+LineFollower2Channel	KEYWORD1
+LineFollower4Channel	KEYWORD1
 
 ###########################################################
 # Methods and Functions (KEYWORD2)
@@ -25,7 +27,33 @@ ReadLineFollowerDigital1	KEYWORD2
 ReadLineFollowerDigital2	KEYWORD2
 ReadLineFollowerAnalog1	KEYWORD2
 ReadLineFollowerAnalog2	KEYWORD2
+SetTimeout	KEYWORD2
+GetTimeout	KEYWORD2
+SetDimmingLevel	KEYWORD2
+GetDimmingLevel	KEYWORD2
+SetEmitter	KEYWORD2
+ReadSensorValues	KEYWORD2
+Read	KEYWORD2
+Calibrate	KEYWORD2
+ResetCalibration	KEYWORD2
+ReadCalibrated	KEYWORD2
+ReadLineBlack	KEYWORD2
+ReadLineWhite	KEYWORD2
+calibrationOn	KEYWORD2
+calibrationOff	KEYWORD2
 
 ############################################################
 # Constants (LITERAL1)
 ############################################################
+I2C_SLV_ADDR_DEFAULT	LITERAL1
+I2C_SLV_ADDR_ALT1	LITERAL1
+I2C_SLV_ADDR_ALT2	LITERAL1
+I2C_SLV_ADDR_ALT3	LITERAL1
+LINEFOLLOWER_4CH_SENSOR_COUNT	LITERAL1
+LINEFOLLOWER_4CH_DEFAULT_TIMEOUT	LITERAL1
+EMITTER_ON	LITERAL1
+EMITTER_OFF	LITERAL1
+ON	LITERAL1
+OFF	LITERAL1
+ON_AND_OFF	LITERAL1
+MANUAL	LITERAL1
